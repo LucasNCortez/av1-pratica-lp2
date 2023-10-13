@@ -1,5 +1,6 @@
+package br.ufrn.imd.model;
+
 import java.util.ArrayList;
-import br.ufrn.imd.model.*;
 
 public class Petshop {
   private ArrayList<Usuario> usuarios;
