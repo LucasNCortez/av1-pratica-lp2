@@ -38,6 +38,16 @@ public class Petshop {
     return usuarioVazio;
   }
 
+  public Usuario getUsuarioByNome(String nome){
+    for (Usuario usuario : this.usuarios){
+      if (usuario.getNome() == nome){
+        return usuario;
+      }
+    }
+    Usuario usuarioVazio = new Usuario(null);
+    return usuarioVazio;
+  }
+
   public ArrayList<AnimalEstimacao> getAnimaisArrayList(){
     return this.animais;
   }
