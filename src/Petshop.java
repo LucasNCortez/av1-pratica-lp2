@@ -5,6 +5,11 @@ public class Petshop {
   private ArrayList<Usuario> usuarios;
   private ArrayList<AnimalEstimacao> animais;
 
+  public Petshop(){
+    this.usuarios = new ArrayList<>();
+    this.animais = new ArrayList<>();
+  }
+
   public void adicionarUsuario(Usuario usuario){
     this.usuarios.add(usuario);
   }
