@@ -8,5 +8,7 @@ public class Main {
     TutorDeAnimalEstimacao lucas = new TutorDeAnimalEstimacao("Lucas");
     Vendedor victor = new Vendedor("Victor");
     PrestadorDeServicos vinicius = new PrestadorDeServicos("Vinicius");
+
+    
   }
 }
