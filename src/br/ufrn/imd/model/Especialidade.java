@@ -6,6 +6,11 @@ public class Especialidade {
   private int id;
   private String nome;
 
+  @Override
+  public String toString() {
+    return String.format("Especialidade %d - %s", getId(), getNome());
+  }
+
   public Especialidade(String nome) {
     this.id = proximoId++;
     this.nome = nome;
