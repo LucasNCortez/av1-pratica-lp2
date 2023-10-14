@@ -15,6 +15,11 @@ public class AnimalEstimacao {
         this.especie = especie;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Animal de Estimação %d - %s", getId(), getNome());
+    }
+
     public int getId(){
         return id;
     }
